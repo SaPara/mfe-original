@@ -6,8 +6,10 @@ import MarketingApp from './components/MarketingApp';
 export default () => {
   return (
     <BrowserRouter>
-      <Header />
-      <MarketingApp />
+      <div>
+        < Header />
+        <MarketingApp />
+      </div>
     </BrowserRouter>
   );
 };
